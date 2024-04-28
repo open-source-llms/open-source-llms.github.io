@@ -1,0 +1,91 @@
+{% if site.llms != blank %}
+<table id="taxonomy" data-toggle="table" data-search="true">
+<thead>
+  <tr>
+    <th rowspan="3" class="first-th border-taxonomy">Model</th>
+    <th colspan="6" class="border-taxonomy border-right">(1) Training</th>
+    <th colspan="4" class="border-taxonomy border-right">(2) Evaluation<br></th>
+    <th colspan="2" class="border-taxonomy border-right">(3) Deployment</th>
+  </tr>
+  <tr class="border-taxonomy">
+    <th colspan="3" class="border-taxonomy border-right">Code</th>
+    <th colspan="3" class="border-taxonomy border-right">Data</th>
+    <th colspan="2" class="border-taxonomy border-right">Code</th>
+    <th colspan="2" class="border-taxonomy border-right">Data</th>
+    <th class="border-taxonomy border-right" >Code</th>
+    <th class="border-taxonomy">Data</th>
+  </tr>
+  <tr class="border-taxonomy">
+    <th class="noborder-right">Pre-Training</th>
+    <th>Fine-tuning</th>
+    <th class="border-right">Alignment</th>
+    <th>Pre-Training</th>
+    <th>Supervised </br>Fine-tuning</th>
+    <th class="border-right">Alignment</th>
+    <th>General Evaluation</th>
+    <th class="border-right">Automatic Safety</br> Evaluation</th>
+    <th>Utility Internal</br> Benchmarks</th>
+    <th class="border-right">Safety Evaluation</br> Datasets</th>
+    <th class="border-right">Inference</th>
+    <th>Model Architecture</br> and Weights</th>
+  </tr>
+</thead>
+
+  <tbody>
+  {% for item in site.llms %}
+  <tr>
+    <td>
+
+      {{ item.title }}
+  </td>
+  <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-code-pretraining | colorize }}">
+      {{ item.training-code-pretraining }}
+  </td>
+  <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-code-finetuning | colorize }}">
+      {{ item.training-code-finetuning }}
+  </td>
+  <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-code-alignment | colorize }}">
+      {{ item.training-code-alignment }}
+  </td>
+    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-data-pretraining | colorize }}">
+      {{ item.training-data-pretraining }}
+  </td>
+    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-data-sft | colorize }}">
+
+      {{ item.training-data-sft }}
+  </td>
+    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-data-alignment | colorize }}">
+
+      {{ item.training-data-alignment }}
+  </td>
+    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.evaluation-code-general | colorize }}">
+
+      {{ item.evaluation-code-general }}
+  </td>
+    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.evaluation-code-safety | colorize }}">
+
+      {{ item.evaluation-code-safety}}
+  </td>
+    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.evaluation-data-utility | colorize }}">
+
+      {{ item.evaluation-data-utility}}
+  </td>
+    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.evaluation-data-safety | colorize }}">
+
+      {{ item.evaluation-data-safety}}
+  </td>
+    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.deployment-code-inference | colorize }}">
+
+      {{ item.deployment-code-inference}}
+  </td>
+    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.deployment-data-weights | colorize }}">
+
+      {{ item.deployment-data-weights}}
+  </td>
+  </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+{%- else -%}
+There is an error parsing the table data.
+{%- endif %}

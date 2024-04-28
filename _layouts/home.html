@@ -23,50 +23,8 @@ layout: default
 {% endif %}
 
 <main class="home" id="main" role="main" aria-label="Content">
-
-  <h1 class="content-title divided">
-    {% if site.paginate and site.paginate_path and paginator.page > 1 %}
-      Page {{ paginator.page }}
-    {% else %}
-      Contents
-    {% endif %}
-  </h1>
-
-  {% if site.paginate and site.paginate_path %}
-    
-    <ul class="post-list">
-      {% for post in paginator.posts %}
-        {% include post-list-item.html %}
-      {% endfor %}
-    </ul>
-
-    {% if paginator.total_pages > 1 %}
-
-      <div class="post-pagination">
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl  }}" class="pagination-next btn">&lang;&nbsp;Older</a>
-        {% else %}
-          <span>&nbsp;</span>
-        {% endif %}
-        <span class="pagination-number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-previous btn">Newer&nbsp;&rang;</a>
-        {% else %}
-          <span>&nbsp;</span>
-        {% endif %}
-      </div>
-
-    {% endif %}
-
-  {% else %}
-
-    <ul class="post-list">
-      {% for post in site.posts %}
-        {% include post-list-item.html %}
-      {% endfor %}
-    </ul>
-  
-  {% endif %}
-    
-
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus viverra fermentum. Mauris vel quam tortor. Morbi vehicula ut felis eget fermentum. Etiam consectetur ex orci, vitae condimentum magna fringilla et. Vestibulum eleifend ipsum diam, at feugiat turpis pretium et. Duis vitae maximus massa. Vivamus sed accumsan neque. Phasellus consectetur purus non ligula rutrum vehicula. Duis varius arcu sit amet arcu malesuada, a rhoncus elit viverra. Fusce tincidunt ultricies felis hendrerit faucibus. In tincidunt nisl a varius porttitor. Donec eget lorem sapien. Aliquam erat volutpat.
 </main>
+
+{% include llm-taxonomy.html %}
+

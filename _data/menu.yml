@@ -1,8 +1,5 @@
-- title: About
-  url: /about.html
+- title: Contribute
+  url: https://github.com
 
-- title: Source
-  url: https://github.com/patdryburgh/hitchens
-
-- title: Designer
-  url: http://patdryburgh.com
+- title: Paper
+  url: https://arxiv.com
