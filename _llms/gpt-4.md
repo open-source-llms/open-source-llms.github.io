@@ -1,19 +1,16 @@
 ---
-title: "GPT-4"
-training-code-pretraining: c1
-training-code-finetuning: c1
-training-code-alignment: c1
-
-training-data-pretraining: c1
-training-data-sft: c1
-training-data-alignment: c1
-
-evaluation-code-general: c1
-evaluation-code-safety: c1
-
-evaluation-data-utility: c1
-evaluation-data-safety: c1
-
-deployment-code-inference: c1
-deployment-data-weights: c1
+title: GPT-4
+training-code-pretraining: 1
+training-code-finetuning: 1
+training-code-alignment: 1
+training-data-pretraining: 1
+training-data-sft: 1
+training-data-alignment: 1
+evaluation-code-general: 5
+evaluation-code-general-license: MIT
+evaluation-code-safety: 1
+evaluation-data-utility: 1
+evaluation-data-safety: 1
+deployment-code-inference: 1
+deployment-data-weights: 2
 ---

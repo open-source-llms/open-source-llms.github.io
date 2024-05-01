@@ -1,18 +1,15 @@
 ---
-title: "LaMDA"
-training-code-pretraining: c1
-training-code-finetuning: c1
-training-code-alignment: NA
-
-training-data-pretraining: d1
-training-data-sft: d1
-training-data-alignment: NA
-
-evaluation-code-general: c1
-evaluation-code-safety: c1
-
-evaluation-data-utility: d1
-evaluation-data-safety: d1
-deployment-code-inference: c1
-deployment-data-weights: d1
+title: LaMDA
+training-code-pretraining: 1
+training-code-finetuning: 1
+training-code-alignment: N/A
+training-data-pretraining: 1
+training-data-sft: 1
+training-data-alignment: N/A
+evaluation-code-general: 1
+evaluation-code-safety: 1
+evaluation-data-utility: 1
+evaluation-data-safety: 1
+deployment-code-inference: 1
+deployment-data-weights: 1
 ---

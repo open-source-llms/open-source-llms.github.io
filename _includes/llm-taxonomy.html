@@ -1,8 +1,9 @@
 {% if site.llms != blank %}
-<table id="taxonomy" data-toggle="table" data-search="true">
+<div id="taxonomy-container">
+<table id="taxonomy" data-toggle="table" data-search="true", data-pagination="true", data-width="80%">
 <thead>
   <tr>
-    <th rowspan="3" class="first-th border-taxonomy">Model</th>
+    <th rowspan="3" class="border-taxonomy border-right, first-th" data-sortable="true">Model</th>
     <th colspan="6" class="border-taxonomy border-right">(1) Training</th>
     <th colspan="4" class="border-taxonomy border-right">(2) Evaluation<br></th>
     <th colspan="2" class="border-taxonomy border-right">(3) Deployment</th>
@@ -16,18 +17,18 @@
     <th class="border-taxonomy">Data</th>
   </tr>
   <tr class="border-taxonomy">
-    <th class="noborder-right">Pre-Training</th>
-    <th>Fine-tuning</th>
-    <th class="border-right">Alignment</th>
-    <th>Pre-Training</th>
-    <th>Supervised </br>Fine-tuning</th>
-    <th class="border-right">Alignment</th>
-    <th>General Evaluation</th>
-    <th class="border-right">Automatic Safety</br> Evaluation</th>
-    <th>Utility Internal</br> Benchmarks</th>
-    <th class="border-right">Safety Evaluation</br> Datasets</th>
-    <th class="border-right">Inference</th>
-    <th>Model Architecture</br> and Weights</th>
+    <th class="noborder-right" data-sortable="true">Pre-Training</th>
+    <th data-sortable="true">Fine-tuning</th>
+    <th class="border-right" data-sortable="true">Alignment</th>
+    <th data-sortable="true">Pre-Training</th>
+    <th data-sortable="true">Supervised </br>Fine-tuning</th>
+    <th data-sortable="true" class="border-right">Alignment</th>
+    <th data-sortable="true">General Evaluation</th>
+    <th data-sortable="true" class="border-right">Automatic Safety</br> Evaluation</th>
+    <th data-sortable="true">Utility Internal</br> Benchmarks</th>
+    <th data-sortable="true" class="border-right">Safety Evaluation</br> Datasets</th>
+    <th data-sortable="true" class="border-right">Inference</th>
+    <th data-sortable="true">Model Architecture</br> and Weights</th>
   </tr>
 </thead>
 
@@ -35,57 +36,37 @@
   {% for item in site.llms %}
   <tr>
     <td>
-
       {{ item.title }}
   </td>
-  <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-code-pretraining | colorize }}">
-      {{ item.training-code-pretraining }}
-  </td>
-  <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-code-finetuning | colorize }}">
-      {{ item.training-code-finetuning }}
-  </td>
-  <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-code-alignment | colorize }}">
-      {{ item.training-code-alignment }}
-  </td>
-    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-data-pretraining | colorize }}">
-      {{ item.training-data-pretraining }}
-  </td>
-    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-data-sft | colorize }}">
+  {% assign training_codes = "training-code-pretraining,training-code-finetuning,training-code-alignment,training-data-pretraining,training-data-sft,training-data-alignment,evaluation-code-general,evaluation-code-safety,evaluation-data-utility,evaluation-data-safety,deployment-code-inference,deployment-data-weights" | split: "," %}
 
-      {{ item.training-data-sft }}
-  </td>
-    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.training-data-alignment | colorize }}">
+  {% for code in training_codes %}
+    {% assign prefix = '' %}
+    {% assign license_suffix = '-license' %}
+    {% assign code_with_license = code | append: license_suffix %}
 
-      {{ item.training-data-alignment }}
-  </td>
-    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.evaluation-code-general | colorize }}">
+    {% assign item_value = item[code] %}
+    {% if item_value == 1 or item_value == 2 or item_value == 3 or item_value == 4 or item_value == 5 %}
+      {% if code contains 'code' %}
+        {% assign prefix = 'C' %}
+      {% elsif code contains 'data' %}
+        {% assign prefix = 'D' %}
+      {% endif %}
+    {% endif %}
 
-      {{ item.evaluation-code-general }}
-  </td>
-    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.evaluation-code-safety | colorize }}">
-
-      {{ item.evaluation-code-safety}}
-  </td>
-    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.evaluation-data-utility | colorize }}">
-
-      {{ item.evaluation-data-utility}}
-  </td>
-    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.evaluation-data-safety | colorize }}">
-
-      {{ item.evaluation-data-safety}}
-  </td>
-    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.deployment-code-inference | colorize }}">
-
-      {{ item.deployment-code-inference}}
-  </td>
-    <td class="noborder-right taxonomy-cell" style="background-color: {{ item.deployment-data-weights | colorize }}">
-
-      {{ item.deployment-data-weights}}
-  </td>
+    <td class="noborder-right taxonomy-cell" style="background-color: {{ item[code] | colorize }}">
+      {{ prefix }}{{ item[code] }}
+      {% if item[code_with_license] %}
+      <br>
+        ({{ item[code_with_license] }})
+      {% endif %}
+    </td>
+  {% endfor %}
   </tr>
   {%- endfor %}
   </tbody>
 </table>
+</div>
 {%- else -%}
 There is an error parsing the table data.
 {%- endif %}

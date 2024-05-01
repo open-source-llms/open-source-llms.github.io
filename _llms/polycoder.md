@@ -1,18 +1,20 @@
 ---
-title: "PolyCoder"
-training-code-pretraining: c5
-training-code-finetuning: NA
-training-code-alignment: NA
-
-training-data-pretraining: UnkTable~(d3 or d4)
-training-data-sft: NA
-training-data-alignment: NA
-
-evaluation-code-general: c5
-evaluation-code-safety: NA
-
-evaluation-data-utility: NA
-evaluation-data-safety: NA
-deployment-code-inference: c5
-deployment-data-weights: c5
+title: PolyCoder
+training-code-pretraining: 5
+training-code-pretraining-license: MIT
+training-code-finetuning: N/A
+training-code-alignment: N/A
+training-data-pretraining: Unknown
+training-data-pretraining-license: D3 or D4
+training-data-sft: N/A
+training-data-alignment: N/A
+evaluation-code-general: 5
+evaluation-code-general-license: MIT
+evaluation-code-safety: N/A
+evaluation-data-utility: N/A
+evaluation-data-safety: N/A
+deployment-code-inference: 5
+deployment-code-inference-license: CC BY-SA-4.0
+deployment-data-weights: 5
+deployment-data-weights-license: CC BY-SA-4.0
 ---

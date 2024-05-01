@@ -10,21 +10,36 @@ layout: default
   <header class="site-masthead">
     {% include menu.html %}
     {% if site.title %}
-      <h1>
+      <h3>
         {{ site.title }}
-      </h1>
-    {% endif %}
-    {% if site.title %}
-      <h2>
-        {{ site.description }}
-      </h2>
+      </h3>
     {% endif %}
   </header>
 {% endif %}
 
 <main class="home" id="main" role="main" aria-label="Content">
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus viverra fermentum. Mauris vel quam tortor. Morbi vehicula ut felis eget fermentum. Etiam consectetur ex orci, vitae condimentum magna fringilla et. Vestibulum eleifend ipsum diam, at feugiat turpis pretium et. Duis vitae maximus massa. Vivamus sed accumsan neque. Phasellus consectetur purus non ligula rutrum vehicula. Duis varius arcu sit amet arcu malesuada, a rhoncus elit viverra. Fusce tincidunt ultricies felis hendrerit faucibus. In tincidunt nisl a varius porttitor. Donec eget lorem sapien. Aliquam erat volutpat.
-</main>
+  <h4>Introduction</h4>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus viverra fermentum. Mauris vel quam tortor. Morbi vehicula ut felis eget fermentum. Etiam consectetur ex orci, vitae condimentum magna fringilla et. Vestibulum eleifend ipsum diam, at feugiat turpis pretium et. Duis vitae maximus massa. Vivamus sed accumsan neque. Phasellus consectetur purus non ligula rutrum vehicula. Duis varius arcu sit amet arcu malesuada, a rhoncus elit viverra. Fusce tincidunt ultricies felis hendrerit faucibus. In tincidunt nisl a varius porttitor. Donec eget lorem sapien. Aliquam erat volutpat.
+<h4>Our taxonomy</h4>
+ Proin facilisis sapien nunc, non aliquet sem eleifend eu. Etiam ac velit nec odio consequat pharetra. Aliquam vulputate suscipit ligula vitae suscipit. In pellentesque gravida tempor. Nulla sit amet diam eu metus egestas interdum ut sed turpis. Etiam eget est aliquet, semper lectus at, convallis arcu. Morbi ut sem cursus quam blandit vestibulum. Nulla venenatis faucibus erat eget lobortis. Curabitur vel leo vestibulum justo dictum scelerisque. Duis condimentum turpis in semper mollis. Nunc sit amet vulputate neque.
 
-{% include llm-taxonomy.html %}
+<h4>Citation</h4>
+  You can cite our works as:
+<blockquote id="citation">
+@article{eiras2024near,
+  title={Risks and Opportunities of Open Source Generative AI},
+  author={Eiras, Francisco and Petrov, Aleksandar and Vidgen, Bertie and de Witt, Christian Schroeder and Pizzati, Fabio and Elkins, Katherine and Mukhopadhyay, Supratik and Bibi, Adel and Csaba, Botos and Steibel, Fabro and others},
+  journal={arXiv},
+  year={2024}
+}
+
+@inproceedings{eiras2024near,
+  title={Near to Mid-term Risks and Opportunities of Open Source Generative AI},
+  author={Eiras, Francisco and Petrov, Aleksandar and Vidgen, Bertie and de Witt, Christian Schroeder and Pizzati, Fabio and Elkins, Katherine and Mukhopadhyay, Supratik and Bibi, Adel and Csaba, Botos and Steibel, Fabro and others},
+  booktitle={ICML},
+  year={2024}
+}
+
+</blockquote>
+</main>
 

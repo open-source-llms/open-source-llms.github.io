@@ -1,18 +1,16 @@
 ---
-title: "GLaM"
-training-code-pretraining: c1
-training-code-finetuning: NA
-training-code-alignment: NA
-
-training-data-pretraining: d1
-training-data-sft: NA
-training-data-alignment: NA
-
-evaluation-code-general: d1
-evaluation-code-safety: NA
-
-evaluation-data-utility: d5
-evaluation-data-safety: NA
-deployment-code-inference: c1
-deployment-data-weights: d1
+title: GLaM
+training-code-pretraining: 1
+training-code-finetuning: N/A
+training-code-alignment: N/A
+training-data-pretraining: 1
+training-data-sft: N/A
+training-data-alignment: N/A
+evaluation-code-general: 1
+evaluation-code-safety: N/A
+evaluation-data-utility: 5
+evaluation-data-utility-license: Public datasets
+evaluation-data-safety: N/A
+deployment-code-inference: 1
+deployment-data-weights: 1
 ---

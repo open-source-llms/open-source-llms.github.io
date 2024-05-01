@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7ce3739-35d3-4456-885c-07203f439959" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/_layouts/taxonomy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taxonomy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/llm-open-taxonomy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/menu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/menu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/llm-taxonomy.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/llm-taxonomy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/anthropic-lm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/anthropic-lm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/chinchilla.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/chinchilla.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/code-t5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/ernie-30.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/fairseq-dense.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/fairseq-dense.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/glam.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/glam.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gopher.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gopher.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-j-6b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-j-6b.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-neo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-neo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-neox-20b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-neox-20b.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/lamda.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/lamda.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/megatron-turin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/mt5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/mt5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/polycoder.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/polycoder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/t5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/t5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/xglm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/xglm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_plugins/colorize.rb" beforeDir="false" afterPath="$PROJECT_DIR$/_plugins/colorize.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2fjJz8SGeadcPJaWtPNojB2gavn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/scratch/local/openllm-website/llm-open-taxonomy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="false">
+    <layout>
+      <window_info id="Commit_Guest" />
+      <window_info id="Space Code Reviews" order="0" />
+      <window_info id="Bookmarks" order="1" side_tool="true" />
+      <window_info id="Pull Requests" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.25068027" />
+      <window_info id="Commit" order="4" />
+      <window_info id="Learn" order="5" show_stripe_button="false" />
+      <window_info id="Structure" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Python Packages" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="File Transfer" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" weight="0.3298913" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="bottom" id="Services" order="8" />
+      <window_info anchor="bottom" id="Dependency Checker" order="9" />
+      <window_info anchor="right" id="Endpoints" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Notifications" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/_layouts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7ce3739-35d3-4456-885c-07203f439959" name="Changes" comment="" />
+      <created>1714308818620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714308818620</updated>
+      <workItem from="1714308820017" duration="4341000" />
+      <workItem from="1714330034234" duration="2034000" />
+      <workItem from="1714562349642" duration="1264000" />
+      <workItem from="1714565694570" duration="127000" />
+      <workItem from="1714565949783" duration="266000" />
+      <workItem from="1714566275025" duration="1004000" />
+      <workItem from="1714567707440" duration="1519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
