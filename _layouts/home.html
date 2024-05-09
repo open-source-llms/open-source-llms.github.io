@@ -18,16 +18,41 @@ layout: default
 {% endif %}
 
 <main class="home" id="main" role="main" aria-label="Content">
-  <h4>Introduction</h4>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla finibus viverra fermentum. Mauris vel quam tortor. Morbi vehicula ut felis eget fermentum. Etiam consectetur ex orci, vitae condimentum magna fringilla et. Vestibulum eleifend ipsum diam, at feugiat turpis pretium et. Duis vitae maximus massa. Vivamus sed accumsan neque. Phasellus consectetur purus non ligula rutrum vehicula. Duis varius arcu sit amet arcu malesuada, a rhoncus elit viverra. Fusce tincidunt ultricies felis hendrerit faucibus. In tincidunt nisl a varius porttitor. Donec eget lorem sapien. Aliquam erat volutpat.
-<h4>Our taxonomy</h4>
- Proin facilisis sapien nunc, non aliquet sem eleifend eu. Etiam ac velit nec odio consequat pharetra. Aliquam vulputate suscipit ligula vitae suscipit. In pellentesque gravida tempor. Nulla sit amet diam eu metus egestas interdum ut sed turpis. Etiam eget est aliquet, semper lectus at, convallis arcu. Morbi ut sem cursus quam blandit vestibulum. Nulla venenatis faucibus erat eget lobortis. Curabitur vel leo vestibulum justo dictum scelerisque. Duis condimentum turpis in semper mollis. Nunc sit amet vulputate neque.
+  <!-- <h4>Introduction</h4> -->
+  <div style="text-align: center; font-style: italic;">
+    Applications of Generative AI (GenAI) are expected to revolutionize a number of different areas, ranging from science & medicine to education. The potential for these seismic changes has triggered a lively debate about the potential risks of the technology, and resulted in calls for tighter regulation, in particular from some of the major tech companies who are leading in AI development. This regulation is likely to put at risk the budding field of open-source generative AI. Using a three-stage framework for GenAI development (near, mid and long-term), we analyze the risks and opportunities of open-source generative AI models with similar capabilities to the ones currently available (near to mid-term) and with greater capabilities (long-term). We argue that, overall, the benefits of open-source GenAI outweigh its risks. As such, we encourage the open sourcing of models, training and evaluation data, and provide a set of recommendations and best practices for managing risks associated with open-source generative AI.
+  </div>
+  
+  <h4>Our Openness Taxonomy</h4>
+  <img src="/assets/images/components.png" alt="Openness Taxonomy" style="width: 100%; max-width: 800px; margin: 0 auto; display: block;">
+  <br>
+  <div style="text-align: center; font-style: italic; font-size: medium">Pipeline of the components of model (1) training, (2) evaluation and (3) deployment for typical LLMs.</div>
+  <br>
+
+  There are several components involved in the training, evaluation and deployment pipeline to obtain a Large Language Model (LLM).
+  Model developers decide whether to make each component of those pipelines <div style="font-style: italic; display: inline;">private</div> or <div style="font-style: italic; display: inline;">public</div>, with varying levels of restrictions for
+  the latter.
+  <br><br>
+  <div style="font-weight: bold; display: inline;">🎯 The main aim of this taxonomy is to provide a structured way to track the openness of the pipelines involved in training, evaluating and deploying LLMs today.</div>
+  As discussed in detail in our paper, the openness of the components involved in training, evaluation and deployment has key implications in terms of transparency, reproducibility and safety of these models.
+  <br><br>
+  <div style="text-align: center;">
+    <a href="/taxonomy" style="text-decoration: none; color: #4682B4;">Explore the taxonomy</a>
+  </div>
+
+  <h4>Contributing</h4>
+  🫶 We need your help to keep this taxonomy up to date! This website is powered by Jekyll and hosted on GitHub Pages.
+  <br><br>
+  If there is a model missing or if you spot a mistake, please visit our GitHub repository and submit a pull request.
+  <br><br>
+  <div style="text-align: center;">
+    <a href="#" style="text-decoration: none; color: #4682B4;">Contribute (Github)</a>
+  </div>
 
 <h4>Citation</h4>
   You can cite our works as:
-<blockquote id="citation">
-@article{eiras2024near,
-  title={Risks and Opportunities of Open Source Generative AI},
+<blockquote id="citation">@article{eiras2024risks,
+  title={Risks and Opportunities of Open-Source Generative AI},
   author={Eiras, Francisco and Petrov, Aleksandar and Vidgen, Bertie and de Witt, Christian Schroeder and Pizzati, Fabio and Elkins, Katherine and Mukhopadhyay, Supratik and Bibi, Adel and Csaba, Botos and Steibel, Fabro and others},
   journal={arXiv},
   year={2024}
@@ -36,10 +61,9 @@ layout: default
 @inproceedings{eiras2024near,
   title={Near to Mid-term Risks and Opportunities of Open Source Generative AI},
   author={Eiras, Francisco and Petrov, Aleksandar and Vidgen, Bertie and de Witt, Christian Schroeder and Pizzati, Fabio and Elkins, Katherine and Mukhopadhyay, Supratik and Bibi, Adel and Csaba, Botos and Steibel, Fabro and others},
-  booktitle={ICML},
+  booktitle={International Conference of Machine Learning},
   year={2024}
 }
-
 </blockquote>
 </main>
 
