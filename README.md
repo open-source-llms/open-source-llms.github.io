@@ -4,7 +4,7 @@ There are several components involved in the training, evaluation and deployment
 
 🎯 The main aim of this taxonomy is to provide a structured way to track the openness of the pipelines involved in training, evaluating and deploying LLMs today. As discussed in detail in our paper [*Risks and Opportunities of Open-Source Generative AI*](), the openness of the components involved in training, evaluation and deployment has key implications in terms of transparency, reproducibility and safety of these models.
 
-The current taxonomy is available at [https://llm-openness.github.io](https://llm-openness.github.io).
+The current taxonomy is available at [https://open-source-llms.github.io](https://open-source-llms.github.io).
 
 ### Contributing
 
