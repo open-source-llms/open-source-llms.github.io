@@ -208,6 +208,7 @@ div.search{
 table#taxonomy thead, tbody{
   border-color: $text-color;
   border: 2px solid;
+  width:100%;
 }
 
 .first-th{
@@ -237,4 +238,26 @@ blockquote#citation{
   color: #4a4a4a;
   font-family: courier;
   font-size: 10pt;
+}
+
+.bg-color-1{
+  background-color: #c00000 !important;
+}
+.bg-color-2{
+  background-color: #c1820c !important;
+}
+.bg-color-3{
+  background-color: #c55c10 !important;
+}
+.bg-color-4{
+  background-color: #957e0a !important;
+}
+.bg-color-5{
+  background-color: #474d20 !important;
+}
+.bg-color-NA{
+  background-color: #434343 !important;
+}
+.bg-color-unknown{
+  background-color: #888888 !important;
 }

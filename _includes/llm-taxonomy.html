@@ -47,14 +47,20 @@
 
     {% assign item_value = item[code] %}
     {% if item_value == 1 or item_value == 2 or item_value == 3 or item_value == 4 or item_value == 5 %}
+      {% assign color-code = item_value %}
       {% if code contains 'code' %}
         {% assign prefix = 'C' %}
       {% elsif code contains 'data' %}
         {% assign prefix = 'D' %}
       {% endif %}
+    {% elsif item_value contains 'N/A' %}
+      {% assign color-code = 'NA' %}
+    {% else %}
+      {% assign color-code = 'unknown' %}
     {% endif %}
 
-    <td class="noborder-right taxonomy-cell" style="background-color: {{ item[code] | colorize }}">
+
+    <td class="noborder-right taxonomy-cell bs-color-default bg-color-{{ color-code }}">
       {{ prefix }}{{ item[code] }}
       {% if item[code_with_license] %}
       <br>
