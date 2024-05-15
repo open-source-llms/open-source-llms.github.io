@@ -2,7 +2,7 @@
 
 There are several components involved in the training, evaluation and deployment pipeline to obtain a Large Language Model (LLM). Model developers decide whether to make each component of those pipelines private or public, with varying levels of restrictions for the latter.
 
-🎯 The main aim of this taxonomy is to provide a structured way to track the openness of the pipelines involved in training, evaluating and deploying LLMs today. As discussed in detail in our paper [*Risks and Opportunities of Open-Source Generative AI*](), the openness of the components involved in training, evaluation and deployment has key implications in terms of transparency, reproducibility and safety of these models.
+🎯 The main aim of this taxonomy is to provide a structured way to track the openness of the pipelines involved in training, evaluating and deploying LLMs today. As discussed in detail in our paper [*Risks and Opportunities of Open-Source Generative AI*](https://arxiv.org/pdf/2405.08597), the openness of the components involved in training, evaluation and deployment has key implications in terms of transparency, reproducibility and safety of these models.
 
 The current taxonomy is available at [https://open-source-llms.github.io](https://open-source-llms.github.io).
 
