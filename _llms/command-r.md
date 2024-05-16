@@ -1,17 +1,39 @@
 ---
 title: Command R
-training-code-pretraining: 1
-training-code-finetuning: 1
-training-code-alignment: 1
-training-data-pretraining: 1
-training-data-sft: 1
-training-data-alignment: 1
-evaluation-code-general: Unknown
-evaluation-code-safety: Unknown
-evaluation-data-utility: 1
-evaluation-data-safety: 1
-deployment-code-inference: 4
-deployment-code-inference-license: C4AI
-deployment-data-weights: 4
-deployment-data-weights-license: C4AI
+training:
+  code:
+    pretraining:
+      value: 1
+    finetuning:
+      value: 1
+    alignment:
+      value: 1
+  data:
+    pretraining:
+      value: 1
+    sft:
+      value: 1
+    alignment:
+      value: 1
+evaluation:
+  code:
+    general:
+      value: Unknown
+    safety:
+      value: Unknown
+  data:
+    utility:
+      value: 1
+    safety:
+      value: 1
+deployment:
+  code:
+    inference:
+      value: 4
+      license: C4AI
+  data:
+    weights:
+      value: 4
+      license: C4AI
+
 ---

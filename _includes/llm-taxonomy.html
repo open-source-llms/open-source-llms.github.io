@@ -1,9 +1,12 @@
 {% if site.llms != blank %}
+
+
 <div id="taxonomy-container">
 <table id="taxonomy" data-toggle="table" data-search="true", data-pagination="true", data-width="80%">
 <thead>
   <tr>
     <th rowspan="3" class="border-taxonomy border-right, first-th" data-sortable="true">Model</th>
+    <th rowspan="3" class="border-taxonomy border-right, first-th" data-sortable="true">Release</th>
     <th colspan="6" class="border-taxonomy border-right">(1) Training</th>
     <th colspan="4" class="border-taxonomy border-right">(2) Evaluation<br></th>
     <th colspan="2" class="border-taxonomy border-right">(3) Deployment</th>
@@ -32,45 +35,69 @@
   </tr>
 </thead>
 
-  <tbody>
-  {% for item in site.llms %}
-  <tr>
-    <td>
-      {{ item.title }}
-  </td>
-  {% assign training_codes = "training-code-pretraining,training-code-finetuning,training-code-alignment,training-data-pretraining,training-data-sft,training-data-alignment,evaluation-code-general,evaluation-code-safety,evaluation-data-utility,evaluation-data-safety,deployment-code-inference,deployment-data-weights" | split: "," %}
-
-  {% for code in training_codes %}
-    {% assign prefix = '' %}
-    {% assign license_suffix = '-license' %}
-    {% assign code_with_license = code | append: license_suffix %}
-
-    {% assign item_value = item[code] %}
-    {% if item_value == 1 or item_value == 2 or item_value == 3 or item_value == 4 or item_value == 5 %}
-      {% assign color-code = item_value %}
-      {% if code contains 'code' %}
-        {% assign prefix = 'C' %}
-      {% elsif code contains 'data' %}
-        {% assign prefix = 'D' %}
-      {% endif %}
-    {% elsif item_value contains 'N/A' %}
-      {% assign color-code = 'NA' %}
+<tbody>
+{% for item in site.llms %}
+<tr>
+  <td>
+    {% if item.link %}
+    <a href="{{item.link}}" target="_blank">{{item.title}}</a>
     {% else %}
-      {% assign color-code = 'unknown' %}
+    {{ item.title }}
+    {% endif %}
+  </td>
+  <td>
+    {% if item.release %}
+    {% assign month = item.release.month | plus: 0 %}
+    {% assign year = item.release.year | plus: 0 %}
+
+    <!-- Assuming the day is the first of the month -->
+    {% assign date_string = year | append: "-" | append: month | append: "-01" %}
+    {% assign date_string_viz = month | append: "-" | append: year %}
+    {% assign date = date_string | date: "%s" %}
+    {% assign milliseconds = date | times: 1000 %}
+    <span style="display:none">{{ milliseconds }}</span>{{date_string_viz}}
+    {% else %}
+    Unknown
     {% endif %}
 
 
-    <td class="noborder-right taxonomy-cell bs-color-default bg-color-{{ color-code }}">
-      {{ prefix }}{{ item[code] }}
-      {% if item[code_with_license] %}
-      <br>
-        ({{ item[code_with_license] }})
-      {% endif %}
-    </td>
+  </td>
+    {% assign hierarchy = site.data.hierarchy %}
+    {% for l_1 in hierarchy %}
+      {% assign category = l_1[0] %}
+      {% for l_2 in l_1[1] %}
+      {% assign type = l_2[0] %}
+      {% for field in l_2[1] %}
+        {% if item[category] and item[category][type] and item[category][type][field] %}
+          {% assign value = item[category][type][field].value %}
+          {% assign license = item[category][type][field].license %}
+          {% assign code_data_class = "" %}
+          {% if value == 1 or value == 2 or value == 3 or value == 4 or value == 5 %}
+            {% assign color-code = value %}
+              {% if type == 'code' %}
+                {% assign code_data_class = "C" %}
+              {% elsif type == 'data' %}
+                {% assign code_data_class = "D" %}
+              {% endif %}
+          {% elsif item_value contains 'N/A' %}
+            {% assign color-code = 'NA' %}
+          {% else %}
+            {% assign color-code = 'unknown' %}
+          {% endif %}
+          <td class="noborder-right taxonomy-cell bg-color-{{ color-code }}">
+            {{ code_data_class }}{{ value }}
+            {% if license %}
+            <br>
+              ({{ license }})
+            {% endif %}
+          </td>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
   {% endfor %}
-  </tr>
-  {%- endfor %}
-  </tbody>
+</tr>
+{%- endfor %}
+</tbody>
 </table>
 </div>
 {%- else -%}

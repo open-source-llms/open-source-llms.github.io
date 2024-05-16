@@ -1,21 +1,43 @@
 ---
 title: UL2
-training-code-pretraining: 5
-training-code-pretraining-license: Apache 2.0
-training-code-finetuning: 5
-training-code-finetuning-license: Apache 2.0
-training-code-alignment: N/A
-training-data-pretraining: 4
-training-data-pretraining-license: ODC-By
-training-data-sft: N/A
-training-data-alignment: N/A
-evaluation-code-general: 5
-evaluation-code-general-license: Apache 2.0
-evaluation-code-safety: N/A
-evaluation-data-utility: N/A
-evaluation-data-safety: N/A
-deployment-code-inference: 5
-deployment-code-inference-license: Apache 2.0
-deployment-data-weights: 5
-deployment-data-weights-license: Apache 2.0
+training:
+  code:
+    pretraining:
+      value: 5
+      license: Apache 2.0
+    finetuning:
+      value: 5
+      license: Apache 2.0
+    alignment:
+      value: N/A
+  data:
+    pretraining:
+      value: 4
+      license: ODC-By
+    sft:
+      value: N/A
+    alignment:
+      value: N/A
+evaluation:
+  code:
+    general:
+      value: 5
+      license: Apache 2.0
+    safety:
+      value: N/A
+  data:
+    utility:
+      value: N/A
+    safety:
+      value: N/A
+deployment:
+  code:
+    inference:
+      value: 5
+      license: Apache 2.0
+  data:
+    weights:
+      value: 5
+      license: Apache 2.0
+
 ---

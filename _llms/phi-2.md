@@ -1,17 +1,39 @@
 ---
 title: Phi-2
-training-code-pretraining: 1
-training-code-finetuning: N/A
-training-code-alignment: N/A
-training-data-pretraining: 1
-training-data-sft: N/A
-training-data-alignment: N/A
-evaluation-code-general: 1
-evaluation-code-safety: N/A
-evaluation-data-utility: N/A
-evaluation-data-safety: N/A
-deployment-code-inference: 5
-deployment-code-inference-license: MIT
-deployment-data-weights: 5
-deployment-data-weights-license: MIT
+training:
+  code:
+    pretraining:
+      value: 1
+    finetuning:
+      value: N/A
+    alignment:
+      value: N/A
+  data:
+    pretraining:
+      value: 1
+    sft:
+      value: N/A
+    alignment:
+      value: N/A
+evaluation:
+  code:
+    general:
+      value: 1
+    safety:
+      value: N/A
+  data:
+    utility:
+      value: N/A
+    safety:
+      value: N/A
+deployment:
+  code:
+    inference:
+      value: 5
+      license: MIT
+  data:
+    weights:
+      value: 5
+      license: MIT
+
 ---

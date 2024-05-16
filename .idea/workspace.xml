@@ -6,8 +6,70 @@
   <component name="ChangeListManager">
     <list default="true" id="e7ce3739-35d3-4456-885c-07203f439959" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/anthropic-175b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/anthropic-175b.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/anthropic-lm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/anthropic-lm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/bloom.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/bloom.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/cerebras-gpt.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/cerebras-gpt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/chinchilla.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/chinchilla.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/claude-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/claude-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/claude.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/claude.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/codet5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/codet5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/command-r+.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/command-r+.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/command-r.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/command-r.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/dbrx.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/dbrx.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/ernie-3.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/ernie-3.0.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/fairseq-dense.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/fairseq-dense.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/falcon.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/falcon.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gemini.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gemini.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/glam.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/glam.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/glm-130b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/glm-130b.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gopher.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gopher.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-3.5-turbo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-3.5-turbo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-j-6b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-j-6b.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-neo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-neo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/gpt-neox-20b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/gpt-neox-20b.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/grok-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/grok-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/jamba.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/jamba.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/lamda.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/lamda.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/llama-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/llama-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/llama-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/llama-3.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_llms/llama.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/llama.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/megatron-turing.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/megatron-turing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/mistral-7b.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/mistral-7b.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/mt5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/mt5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/openllama.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/openllama.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/opt.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/opt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_llms/palm-2-foundation-model-only.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/palm-2-foundation-model-only.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/palm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/palm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/phi-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/phi-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/polycoder.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/polycoder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/pythia.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/pythia.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/stable-lm-base-alpha-base-alpha-tuned.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/stable-lm-base-alpha-base-alpha-tuned.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/t5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/t5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/ul2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/ul2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms/xglm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_llms/xglm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/anthropic-lm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/chinchilla.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/code-t5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/ernie-30.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/fairseq-dense.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/glam.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/gopher.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/gpt-2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/gpt-j-6b.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/gpt-neo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/gpt-neox-20b.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/gpt3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/lamda.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/megatron-turin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/mt5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/polycoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/t5.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_llms_old/xglm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_base.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,20 +87,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/scratch/local/openllm-website/llm-open-taxonomy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/scratch/local/openllm-website/llm-open-taxonomy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="false">
     <layout>
       <window_info id="Commit_Guest" />
@@ -86,6 +149,8 @@
       <workItem from="1714565949783" duration="266000" />
       <workItem from="1714566275025" duration="1004000" />
       <workItem from="1714567707440" duration="1519000" />
+      <workItem from="1715701509506" duration="599000" />
+      <workItem from="1715868684288" duration="73000" />
     </task>
     <servers />
   </component>

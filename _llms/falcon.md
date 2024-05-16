@@ -1,18 +1,40 @@
 ---
 title: Falcon
-training-code-pretraining: 1
-training-code-finetuning: 1
-training-code-alignment: 1
-training-data-pretraining: 4
-training-data-pretraining-license: ODC-By
-training-data-sft: 1
-training-data-alignment: 1
-evaluation-code-general: 1
-evaluation-code-safety: N/A
-evaluation-data-utility: N/A
-evaluation-data-safety: N/A
-deployment-code-inference: 5
-deployment-code-inference-license: Apache 2.0
-deployment-data-weights: 5
-deployment-data-weights-license: Falcon-180B Data
+training:
+  code:
+    pretraining:
+      value: 1
+    finetuning:
+      value: 1
+    alignment:
+      value: 1
+  data:
+    pretraining:
+      value: 4
+      license: ODC-By
+    sft:
+      value: 1
+    alignment:
+      value: 1
+evaluation:
+  code:
+    general:
+      value: 1
+    safety:
+      value: N/A
+  data:
+    utility:
+      value: N/A
+    safety:
+      value: N/A
+deployment:
+  code:
+    inference:
+      value: 5
+      license: Apache 2.0
+  data:
+    weights:
+      value: 5
+      license: Falcon-180B Data
+
 ---

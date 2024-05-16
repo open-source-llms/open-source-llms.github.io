@@ -1,21 +1,43 @@
 ---
 title: GPT-Neo
-training-code-pretraining: 5
-training-code-finetuning: 5
-training-code-alignment: N/A
-training-data-pretraining: 5
-training-data-sft: N/A
-training-data-alignment: N/A
-evaluation-code-general: 5
-evaluation-code-safety: N/A
-evaluation-data-utility: N/A
-evaluation-data-safety: N/A
-deployment-code-inference: 5
-deployment-data-weights: 5
-training-code-pretraining-license: MIT
-training-code-finetuning-license: MIT
-training-data-pretraining-license: MIT
-evaluation-code-general-license: MIT
-deployment-code-inference-license: MIT
-deployment-data-weights-license: MIT
+training:
+  code:
+    pretraining:
+      value: 5
+      license: MIT
+    finetuning:
+      value: 5
+      license: MIT
+    alignment:
+      value: N/A
+  data:
+    pretraining:
+      value: 5
+      license: MIT
+    sft:
+      value: N/A
+    alignment:
+      value: N/A
+evaluation:
+  code:
+    general:
+      value: 5
+      license: MIT
+    safety:
+      value: N/A
+  data:
+    utility:
+      value: N/A
+    safety:
+      value: N/A
+deployment:
+  code:
+    inference:
+      value: 5
+      license: MIT
+  data:
+    weights:
+      value: 5
+      license: MIT
+
 ---

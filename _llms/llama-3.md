@@ -1,17 +1,39 @@
 ---
 title: LLaMA-3
-training-code-pretraining: 1
-training-code-finetuning: 1
-training-code-alignment: 1
-training-data-pretraining: 1
-training-data-sft: 1
-training-data-alignment: 1
-evaluation-code-general: 1
-evaluation-code-safety: 1
-evaluation-data-utility: Unknown
-evaluation-data-safety: Unknown
-deployment-code-inference: 3
-deployment-code-inference-license: LLaMA-3
-deployment-data-weights: 3
-deployment-data-weights-license: LLaMA-3
+training:
+  code:
+    pretraining:
+      value: 1
+    finetuning:
+      value: 1
+    alignment:
+      value: 1
+  data:
+    pretraining:
+      value: 1
+    sft:
+      value: 1
+    alignment:
+      value: 1
+evaluation:
+  code:
+    general:
+      value: 1
+    safety:
+      value: 1
+  data:
+    utility:
+      value: Unknown
+    safety:
+      value: Unknown
+deployment:
+  code:
+    inference:
+      value: 3
+      license: LLaMA-3
+  data:
+    weights:
+      value: 3
+      license: LLaMA-3
+
 ---

@@ -1,20 +1,42 @@
 ---
 title: PolyCoder
-training-code-pretraining: 5
-training-code-pretraining-license: MIT
-training-code-finetuning: N/A
-training-code-alignment: N/A
-training-data-pretraining: Unknown
-training-data-pretraining-license: D3 or D4
-training-data-sft: N/A
-training-data-alignment: N/A
-evaluation-code-general: 5
-evaluation-code-general-license: MIT
-evaluation-code-safety: N/A
-evaluation-data-utility: N/A
-evaluation-data-safety: N/A
-deployment-code-inference: 5
-deployment-code-inference-license: CC BY-SA-4.0
-deployment-data-weights: 5
-deployment-data-weights-license: CC BY-SA-4.0
+training:
+  code:
+    pretraining:
+      value: 5
+      license: MIT
+    finetuning:
+      value: N/A
+    alignment:
+      value: N/A
+  data:
+    pretraining:
+      value: Unknown
+      license: D3 or D4
+    sft:
+      value: N/A
+    alignment:
+      value: N/A
+evaluation:
+  code:
+    general:
+      value: 5
+      license: MIT
+    safety:
+      value: N/A
+  data:
+    utility:
+      value: N/A
+    safety:
+      value: N/A
+deployment:
+  code:
+    inference:
+      value: 5
+      license: CC BY-SA-4.0
+  data:
+    weights:
+      value: 5
+      license: CC BY-SA-4.0
+
 ---

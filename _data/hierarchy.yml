@@ -1,0 +1,21 @@
+training:
+  code:
+    - pretraining
+    - finetuning
+    - alignment
+  data:
+    - pretraining
+    - sft
+    - alignment
+evaluation:
+  code:
+    - general
+    - safety
+  data:
+    - utility
+    - safety
+deployment:
+  code:
+    - inference
+  data:
+    - weights
