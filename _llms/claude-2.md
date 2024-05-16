@@ -1,5 +1,9 @@
 ---
 title: Claude-2
+link: https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf
+release:
+  month: 7
+  year: 2023
 training:
   code:
     pretraining:

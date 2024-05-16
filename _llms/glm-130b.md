@@ -1,5 +1,9 @@
 ---
 title: GLM-130B
+link: https://arxiv.org/abs/2210.02414
+release:
+  month: 10
+  year: 2022
 training:
   code:
     pretraining:

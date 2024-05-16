@@ -1,5 +1,9 @@
 ---
 title: Megatron-Turing
+link: https://arxiv.org/abs/2201.11990
+release:
+  month: 10
+  year: 2021
 training:
   code:
     pretraining:

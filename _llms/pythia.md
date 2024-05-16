@@ -1,5 +1,9 @@
 ---
 title: Pythia
+link: https://arxiv.org/abs/2304.01373
+release:
+  month: 12
+  year: 2022
 training:
   code:
     pretraining:

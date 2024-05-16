@@ -1,5 +1,9 @@
 ---
 title: GPT-3.5-turbo
+link: https://platform.openai.com/docs/model-index-for-researchers
+release:
+  month: 9
+  year: 2023
 training:
   code:
     pretraining:

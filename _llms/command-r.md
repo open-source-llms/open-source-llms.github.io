@@ -1,5 +1,9 @@
 ---
 title: Command R
+link: https://docs.cohere.com/docs/command-r
+release:
+  month: 3
+  year: 2024
 training:
   code:
     pretraining:

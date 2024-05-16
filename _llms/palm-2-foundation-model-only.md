@@ -1,5 +1,9 @@
 ---
 title: PaLM-2 Foundation model only
+link: https://arxiv.org/abs/2305.10403
+release:
+  month: 5
+  year: 2023
 training:
   code:
     pretraining:

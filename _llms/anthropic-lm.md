@@ -1,5 +1,9 @@
 ---
 title: Anthropic LM
+link: https://arxiv.org/abs/2112.00861
+release:
+  month: 12
+  year: 2021
 training:
   code:
     pretraining:

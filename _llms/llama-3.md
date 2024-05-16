@@ -1,5 +1,9 @@
 ---
 title: LLaMA-3
+link: https://llama.meta.com/
+release:
+  month: 4
+  year: 2024
 training:
   code:
     pretraining:

@@ -1,5 +1,9 @@
 ---
 title: GPT-2
+link: https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+release:
+  month: 2
+  year: 2019
 training:
   code:
     pretraining:

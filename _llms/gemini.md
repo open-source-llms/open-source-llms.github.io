@@ -1,5 +1,9 @@
 ---
 title: Gemini
+link: https://blog.google/technology/ai/google-gemini-ai
+release:
+  month: 12
+  year: 2023
 training:
   code:
     pretraining:

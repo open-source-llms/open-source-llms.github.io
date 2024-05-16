@@ -1,5 +1,9 @@
 ---
 title: Jamba
+link: https://www.ai21.com/jamba
+release:
+  month: 3
+  year: 2024
 training:
   code:
     pretraining:

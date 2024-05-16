@@ -1,5 +1,9 @@
 ---
 title: OpenLLaMA
+link: https://github.com/openlm-research/open_llama
+release:
+  month: 6
+  year: 2023
 training:
   code:
     pretraining:

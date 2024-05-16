@@ -1,5 +1,9 @@
 ---
 title: FairSeq Dense
+link: https://arxiv.org/abs/2112.10684
+release:
+  month: 12
+  year: 2021
 training:
   code:
     pretraining:

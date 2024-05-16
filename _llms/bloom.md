@@ -1,5 +1,9 @@
 ---
 title: BLOOM
+link: https://arxiv.org/abs/2211.05100
+release:
+  month: 5
+  year: 2022
 training:
   code:
     pretraining:

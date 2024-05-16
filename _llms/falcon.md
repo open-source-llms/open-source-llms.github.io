@@ -1,5 +1,9 @@
 ---
 title: Falcon
+link: https://arxiv.org/abs/2311.16867
+release:
+  month: 9
+  year: 2023
 training:
   code:
     pretraining:

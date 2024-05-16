@@ -1,5 +1,9 @@
 ---
 title: Phi-2
+link: https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/
+release:
+  month: 11
+  year: 2023
 training:
   code:
     pretraining:

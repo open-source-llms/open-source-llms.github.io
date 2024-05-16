@@ -1,5 +1,9 @@
 ---
 title: Anthropic 175B
+link: https://arxiv.org/abs/2302.07459
+release:
+  month: 2
+  year: 2023
 training:
   code:
     pretraining:

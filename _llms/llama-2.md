@@ -1,5 +1,9 @@
 ---
 title: LLaMA-2
+link: https://arxiv.org/abs/2307.09288
+release:
+  month: 7
+  year: 2023
 training:
   code:
     pretraining:

@@ -1,5 +1,9 @@
 ---
 title: Stable LM Base-Alpha Base-Alpha-Tuned
+link: https://github.com/Stability-AI/StableLM
+release:
+  month: 4
+  year: 2023
 training:
   code:
     pretraining:

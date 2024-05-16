@@ -1,5 +1,9 @@
 ---
 title: Mistral-7B
+link: https://arxiv.org/abs/2310.06825
+release:
+  month: 10
+  year: 2023
 training:
   code:
     pretraining:

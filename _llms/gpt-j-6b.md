@@ -1,5 +1,9 @@
 ---
 title: GPT-J-6B
+link: https://huggingface.co/EleutherAI/gpt-j-6b
+release:
+  month: 6
+  year: 2021
 training:
   code:
     pretraining:

@@ -1,5 +1,9 @@
 ---
 title: DBRX
+link: https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm
+release:
+  month: 3
+  year: 2024
 training:
   code:
     pretraining:

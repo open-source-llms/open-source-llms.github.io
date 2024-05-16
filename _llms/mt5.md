@@ -1,5 +1,9 @@
 ---
 title: mT5
+link: https://arxiv.org/abs/2010.11934
+release:
+  month: 10
+  year: 2020
 training:
   code:
     pretraining:

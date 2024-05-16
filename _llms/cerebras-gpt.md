@@ -1,5 +1,9 @@
 ---
 title: Cerebras-GPT
+link: https://arxiv.org/abs/2304.03208
+release:
+  month: 3
+  year: 2023
 training:
   code:
     pretraining:

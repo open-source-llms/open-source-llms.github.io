@@ -1,5 +1,9 @@
 ---
 title: Chinchilla
+link: https://arxiv.org/abs/2203.15556
+release:
+  month: 3
+  year: 2022
 training:
   code:
     pretraining:

@@ -1,5 +1,9 @@
 ---
 title: Claude
+link: https://www.anthropic.com/index/introducing-claude
+release:
+  month: 3
+  year: 2023
 training:
   code:
     pretraining:

@@ -1,5 +1,9 @@
 ---
 title: GPT-NeoX-20B
+link: https://arxiv.org/abs/2204.06745
+release:
+  month: 2
+  year: 2022
 training:
   code:
     pretraining:

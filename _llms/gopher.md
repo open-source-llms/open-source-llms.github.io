@@ -1,5 +1,9 @@
 ---
 title: Gopher
+link: https://arxiv.org/abs/2112.11446
+release:
+  month: 12
+  year: 2021
 training:
   code:
     pretraining:

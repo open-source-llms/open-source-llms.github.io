@@ -1,5 +1,9 @@
 ---
 title: ERNIE 3.0
+link: https://arxiv.org/abs/2107.02137
+release:
+  month: 12
+  year: 2021
 training:
   code:
     pretraining:

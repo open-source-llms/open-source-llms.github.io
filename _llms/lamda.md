@@ -1,5 +1,9 @@
 ---
 title: LaMDA
+link: https://arxiv.org/abs/2201.08239
+release:
+  month: 1
+  year: 2022
 training:
   code:
     pretraining:

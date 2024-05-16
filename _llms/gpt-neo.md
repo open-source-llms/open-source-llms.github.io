@@ -1,5 +1,9 @@
 ---
 title: GPT-Neo
+link: https://github.com/EleutherAI/gpt-neo
+release:
+  month: 3
+  year: 2021
 training:
   code:
     pretraining:

@@ -1,5 +1,9 @@
 ---
 title: GPT-3
+link: https://arxiv.org/abs/2005.14165
+release:
+  month: 5
+  year: 2020
 training:
   code:
     pretraining:

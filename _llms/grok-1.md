@@ -1,5 +1,9 @@
 ---
 title: Grok-1
+link: https://x.ai/
+release:
+  month: 11
+  year: 2023
 training:
   code:
     pretraining:

@@ -1,5 +1,9 @@
 ---
 title: GPT-4
+link: https://arxiv.org/abs/2303.08774
+release:
+  month: 3
+  year: 2023
 training:
   code:
     pretraining:

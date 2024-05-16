@@ -1,5 +1,9 @@
 ---
 title: OPT
+link: https://arxiv.org/abs/2205.01068
+release:
+  month: 5
+  year: 2022
 training:
   code:
     pretraining:

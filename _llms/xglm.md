@@ -1,5 +1,9 @@
 ---
 title: XGLM
+link: https://arxiv.org/abs/2112.10668
+release:
+  month: 12
+  year: 2021
 training:
   code:
     pretraining:
